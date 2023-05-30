@@ -22,7 +22,7 @@ public class Cat {
     private UUID id;
     private String name;
 
-    private Cat(String name) {
+    public Cat(String name) {
         this.name = name;
     }
 }
